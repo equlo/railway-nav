@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Railway Station Navigation</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+</head>
+<body>
+    <h1>Railway Station Navigation</h1>
+    <div id="map" style="height: 600px; width: 100%;"></div>
+    <div>
+        <input type="text" id="start" placeholder="Start Location">
+        <input type="text" id="end" placeholder="End Location">
+        <button onclick="findPath()">Find Path</button>
+    </div>
+    <div id="path"></div>
+    <script src="script.js"></script>
+</body>
+</html>
