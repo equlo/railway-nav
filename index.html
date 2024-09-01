@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Map of Railway Station</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+</head>
+<body>
+    <div id="map-container"></div>
+    <div>
+        <button id="find-path-btn">Find Shortest Path</button>
+        <button id="text-to-speech-btn">Play Directions</button>
+    </div>
+    <script src="{% static 'js/app.js' %}"></script>
+</body>
+</html>
